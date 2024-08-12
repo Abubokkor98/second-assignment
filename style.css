@@ -280,3 +280,85 @@ margin-left: -10px;
     filter: brightness(1);
   }
       /* run-section css end */
+
+      /* Product section css start */
+      .our-product-section{
+        margin: 0 auto;
+        /* border: 2px solid yellow; */
+        /* background-color: #ffffff; */
+        /* padding: 60px 0; */
+        text-align: center;
+      }
+      .product-container{
+        /* border: 2px solid green; */
+        max-width: 1060px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .our-product-section h2{
+        font-size: 48px;
+        font-weight: 700;
+        color: var(--font_color);
+        margin-bottom: 20px;
+      
+      }
+      .our-product-section p{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.3%;
+        color: var(--sec-font-color);
+        margin-bottom: 40px;
+      }
+      .products{
+        /* display: grid;
+        grid-template-columns: repeat(3, 1fr); */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      
+      }
+      .product-item {
+        background-color:  rgb(255, 255, 255, 10%);
+        border: 1px solid rgb(255, 255, 255, 10%);
+        border-radius: 10px;
+        width: 30%;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        text-align: left;
+      }
+        
+      .product-item img {
+        max-width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+      }
+      .product-item h3 {
+        font-size: 24px;
+        color: var(--font_color);
+        margin-bottom: 10px;
+      }
+      
+      .product-item .price {
+        font-size: 20px;
+        color:var(--primary_color);
+        margin-bottom: 15px;
+      }
+      
+      .product-item p {
+        font-size: 16px;
+        color: var(--sec-font-color);
+        margin-bottom: 20px;
+      }
+      .product-btn{
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: var(--primary_color);
+        color: var(--font_color);
+        padding: 10px 20px;
+      
+      }
+
+      /* Product section css end */
+
