@@ -1,0 +1,90 @@
+@media screen and (max-width: 576px) {
+     /* navbar responsive start */
+  .navber{
+    margin: 40px 20px 0;
+  }
+    .navber ul, .fist-child{
+      border: none;
+      background: none;
+    }
+    .navber ul li a {
+      display: none;
+    
+    }
+    .fa-solid {
+      display: block;
+      /* margin-left:35px; */
+      align-items: center;
+    }
+   /* navbar responsive start */
+
+
+  /* banner responsive start */
+
+  .banner-container{
+    flex-direction: column;
+  }
+  .banner-titile{
+   margin: 50px 20px 0;
+   width: 100%;
+   text-align: center;
+}
+
+ .banner-titile h1, .sub-title{
+  font-size: 35px;
+  font-weight: 800;
+ }
+ .banner-titile p br{
+  display: none;
+ }
+ .banner-titile p{
+  max-width: 80%;
+  text-align: center;
+  margin: 0 auto;
+ }
+ .btn, .btn2 {
+  max-width: 150px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 550;
+ }
+
+.banner-img{
+  height: 550px;
+  max-width: 90%;
+  margin-left: 25vh;
+  background-image: url(./images/Image1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.workout-btn{
+  margin-top: 100px;
+  margin-left: 160px;
+  height: auto;
+  width: 157px;
+  padding: 10px;
+  text-align: center;
+}
+#workout-btn-title, #video-btn-title{
+  font-size: 25px;
+  font-weight: 700;
+}
+#workout-btn-text, #video-btn-text{
+  text-align: left;
+  justify-content: center;
+}
+.video-btn{
+  margin-top: 100px;
+  margin-left: -100px;
+  height: auto;
+  width: 166px;
+  padding: 10px;
+}
+#circle{
+  height: 50px;
+}
+/* banner responsive end */
+}
