@@ -180,4 +180,53 @@
     padding: 8px 16px;
   }
   /* product section responsive end */
+
+  /* bmi section responsive start */
+.bmi_title_container{
+    width: 90%;
+    margin: 0 20px 30px 30px;
+    margin-top: 40px;
+  }
+  .bmi_title_container p{
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+  }
+  /* bmi form area */
+  .bmi_chart_section{
+    /* width: 100%; */
+    /* height: 100%; */
+    /* height: auto; */
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .bmi_chart{
+    margin-left: 40px;
+  }
+  .bmi-calculator{
+    width: 80%;
+    /* margin: 0 auto; */
+    margin-left: 40px;
+    margin-top: -50px;
+  }
+  .bmi-calculator-title p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+  }
+  /* .form_btn{
+    width: 90%;
+  } */
+  #bmi-btn{
+    border-radius: 50px;
+    font-size: 25px;
+    /* font-weight: 300; */
+    width: 250px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+  }
+  /* bmi section responsive end */
 }
