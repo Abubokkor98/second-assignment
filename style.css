@@ -14,15 +14,13 @@ body{
   font-family: "Inter", sans-serif;
 }
 header{
-  /* height: 715px; */
   margin-bottom: 100px;
   width: 100%;
   background: linear-gradient(180.00deg, rgb(0, 0, 0),rgb(39, 39, 39),rgb(0, 0, 0) 100%);
 }
 
-/* nav area */
-
-.navber{
+/* navbar css start here */
+.navbar{
   margin: 40px 180px 10px;
   display: flex;
   justify-content: space-between;
@@ -35,18 +33,18 @@ header{
   font-style: italic;
 }
 
-.navber ul  {
+.navbar ul  {
   display: flex;
   justify-content: space-between;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius:  39px;
 }
-.navber ul li {
+.navbar ul li {
   padding: 10px 45px;
   list-style: none;
  
 }
-.navber ul li a{
+.navbar ul li a{
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -62,27 +60,25 @@ header{
   display: none; 
   margin-top: 10px;
 }
+/* navbar css end here */
 
-/* banner area style */
 
+/* banner css start here */
 .banner-container{
-  /* width: 1044px; */
   display: flex;
   margin: 0 auto;
-  /* justify-content: space-between; */
 }
-.banner-titile{
+.banner-title{
    margin: 95px 85px 75px 180px;
-   /* width: 45%; */
    width: 50%;
 }
-.banner-titile h1{
+.banner-title h1{
   color: var(--font_color);
   font-size: 70px;
   font-weight: 900;
   margin-bottom: 25px;
 }
-.banner-titile p{
+.banner-title p{
  color:  rgba(255, 255, 255, 0.5);
  font-size: 16px;
  line-height: 20px;
@@ -120,13 +116,10 @@ header{
 }
 
 .banner-img{
-  /* margin: 32px 214px 0 86px; */
   width: 50%;   
-  /* height: 600px;  */
   background-image: url(./images/Image1.png);
   background-repeat: no-repeat; 
   background-position: left;
-  /* border: 2px solid pink; */
   width: 50%;
   margin: 0px 0px 0px 100px; 
 }
@@ -149,7 +142,6 @@ header{
   font-weight: 900;  
   color: rgb(250, 250, 250 );
   padding: 5px;
-  /* margin-left: 10px; */
 }
 #workout-btn-text{
 color: rgba(255, 255, 255, 0.5);
@@ -157,7 +149,6 @@ padding: 5px;
 }
 
 .video-btn{
-  /* border: 3px solid red; */
   height: auto;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
@@ -167,19 +158,13 @@ padding: 5px;
   text-align: left;
   display: flex;    
   padding: 10px;
-  /* margin: 200px 0px 30px 100px;  */
   margin-top: 190px;
   margin-left: -80px;
 }
 #circle{
 padding: 10px;
-  /* width: 40px;   */
-  /* margin: 0px 20px 0px 0px;    */
-  /* padding-top: 15px; */
-  /* border: 2px solid red; */
 }
 #video-btn-title{
-  /* border: 2px solid red; */
   font-size: 30px;
   font-weight: 900;   
   text-align: right;
@@ -192,9 +177,11 @@ color: rgba(255, 255, 255, 0.5);
 padding: 10px;
 margin-left: -10px;
 }
+/* banner css end here */
+
 
  
-  /* habit section css start */
+  /* habit section css start here */
   .habits_section{
     width: 1044px;
     height: 452px;
@@ -240,9 +227,10 @@ margin-left: -10px;
       font-size: 14px;
       color: var(--sec-font-color) ;
     }
-     /* habit section css end */
+     /* habit section css end here*/
 
-    /* run-section css start */
+
+    /* run-section css start here*/
      .run_section{
     width: 1050px;
     height: 370px;
@@ -279,18 +267,14 @@ margin-left: -10px;
     margin: 30px 32px 29px 0;
     filter: brightness(1);
   }
-      /* run-section css end */
+  /* run-section css end here */
 
-      /* Product section css start */
+  /* Product section css start here */
       .our-product-section{
         margin: 0 auto;
-        /* border: 2px solid yellow; */
-        /* background-color: #ffffff; */
-        /* padding: 60px 0; */
         text-align: center;
       }
       .product-container{
-        /* border: 2px solid green; */
         max-width: 1060px;
         margin: 0 auto;
         padding: 0 20px;
@@ -310,8 +294,6 @@ margin-left: -10px;
         margin-bottom: 40px;
       }
       .products{
-        /* display: grid;
-        grid-template-columns: repeat(3, 1fr); */
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -358,9 +340,9 @@ margin-left: -10px;
         color: var(--font_color);
         padding: 10px 20px;
       }
-      /* Product section css end */
+      /* Product section css end here */
 
- /*  BMI title css start */
+ /*  BMI title css */
   .bmi_title_container{
     width: 671px;
     height: 120px;
@@ -378,12 +360,10 @@ margin-left: -10px;
       line-height: 24px;
       letter-spacing: 0.3px;
     }
-  
-  /* bmi section css start */
+  /* bmi section css start here */
 
   .bmi_chart_section{
     width: 100%;
-    /* height: 487px; */
     height: auto;
     background-color: #222222;
     margin-bottom: 88px;
@@ -471,13 +451,11 @@ margin-left: -10px;
     width: 100%;
     padding:4px 0;
   }
-/* bmi section css end */
+/* bmi section css end here*/
 
- /* our team section css start */
+ /* our team section css start here */
  .our_team_section{
-  /* border: 2px solid red; */
   width: 1060px;
-  /* height: 9%; */
   margin: 0 auto;
   margin-bottom: 88px;
 }
@@ -528,9 +506,9 @@ margin-top: 10px;
   right: -15px;
   position: relative;
 }
- /* our team section css end */
+ /* our team section css end here*/
 
-  /*  footer css start */
+  /*  footer css start here*/
   .footer_area{
     width: 100%;
     background-color:  rgb(255, 255, 255, 10%);
@@ -584,20 +562,12 @@ margin-top: 10px;
     
   }
   
-  hr.line_brack{
+  hr.line_break{
     width: 1060px;
     border: 1px solid rgb(255, 255, 255, 10%);
     margin: 0 auto;
     margin-top: 79px;
   }
-  /* .copyright_title {
-  margin: 36px 564px 5px 558px;
-  align-items: center;
-  font-size: 15px;
-  color: rgb(255, 255, 255, 50%);
-  line-height: 24px;
-  font-weight: 500;
-  } */
    .copyright_title{
     text-align: center;
     text-align: center;
@@ -606,9 +576,7 @@ margin-top: 10px;
     font-size: 1.4rem;
     color: rgb(255, 255, 255, 50%);
    }
-
-
-    /*  footer css end */
+    /*  footer css end here*/
 
 
 
