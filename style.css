@@ -530,5 +530,86 @@ margin-top: 10px;
 }
  /* our team section css end */
 
+  /*  footer css start */
+  .footer_area{
+    width: 100%;
+    background-color:  rgb(255, 255, 255, 10%);
+    height: 419px;
+  }
+  .footer_container{
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    height: 249px;
+    margin: 0 auto ;
+  }
+  .left_colm h1{
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+  }
+  .left_colm p{
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.3%;
+    font-weight: 500;
+    color: var(--sec-font-color);
+    margin-top: 20px;
+    margin-bottom: 72px;
+  }
+  .left_colm{
+    width: 440px;
+    margin-top: 66px;
+  }
+
+   .right-colms{
+    width: 180px;
+    height: 250px;
+    margin-top: 66px;
+   }
+  
+  .right-colms h2{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .right-colms a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255, 50%);
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+  }
+  
+  hr.line_brack{
+    width: 1060px;
+    border: 1px solid rgb(255, 255, 255, 10%);
+    margin: 0 auto;
+    margin-top: 79px;
+  }
+  /* .copyright_title {
+  margin: 36px 564px 5px 558px;
+  align-items: center;
+  font-size: 15px;
+  color: rgb(255, 255, 255, 50%);
+  line-height: 24px;
+  font-weight: 500;
+  } */
+   .copyright_title{
+    text-align: center;
+    text-align: center;
+    margin-top: 35px;
+    padding-bottom: 36px;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255, 50%);
+   }
+
+
+    /*  footer css end */
+
+
 
 
