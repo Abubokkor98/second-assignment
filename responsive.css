@@ -229,4 +229,29 @@
     text-align: center;
   }
   /* bmi section responsive end */
+
+  /* our team responsive start */
+.our_team_section{
+    width: 90%;
+    height: 90%;
+    margin-top: -50px;
+  }
+  .team_title{
+    width: 80%;       
+    margin: 10px 10px;
+  }
+  .team_title br{
+    display: none;
+  }
+  .team_title p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+  }
+  .Team_img_container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* our team responsive end */
 }
