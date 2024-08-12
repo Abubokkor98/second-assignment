@@ -473,4 +473,62 @@ margin-left: -10px;
   }
 /* bmi section css end */
 
+ /* our team section css start */
+ .our_team_section{
+  /* border: 2px solid red; */
+  width: 1060px;
+  /* height: 9%; */
+  margin: 0 auto;
+  margin-bottom: 88px;
+}
+.team_title{
+  text-align: center;
+}
+.team_title h1{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 14px;
+}
+.team_title p{
+  color: var(--sec-font-color);
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.3%;
+  margin-bottom: 55px;
+}
+
+/* team-img css */
+.Team_img_container{
+  background-color: #222222;
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.team_img img{
+width: 95%;
+height: 95%;
+border-radius: 18px;
+margin-left: 10px;
+margin-top: 10px;
+
+}
+.trainer_name{
+  position: relative;
+  top: -60px;
+  right: -15px;
+  color: #fff;
+  font-size: 20px;
+}
+.team_img p{
+  color: rgb(255, 255, 255, 50%);
+  font-size: 16px;
+  top: -55px;
+  right: -15px;
+  position: relative;
+}
+ /* our team section css end */
+
+
 
