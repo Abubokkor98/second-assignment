@@ -241,3 +241,42 @@ margin-left: -10px;
       color: var(--sec-font-color) ;
     }
      /* habit section css end */
+
+    /* run-section css start */
+     .run_section{
+    width: 1050px;
+    height: 370px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background: #222222;
+    border-radius: 18px;
+  }
+  
+  .run_title{
+     margin: 40px 163px 41px 54px;
+  }
+  .run_title h2{
+    font-size: 48px;
+    line-height: 120%;
+    color: var(--font_color);
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  .run_title p{
+    color: var(--sec-font-color);
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    margin-bottom: 30px;
+  }
+  
+  .run_img_area img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    margin: 30px 32px 29px 0;
+    filter: brightness(1);
+  }
+      /* run-section css end */
